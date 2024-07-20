@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+}
+
+.blog-container{
+    /* background-color: blue; */
+    /* height: 100vh; */
+    margin: 0px 170px;
+    padding:15px;
+    box-shadow: inset  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+.blog-container>h1{
+    font-size: 35px;
+
+}
+.blog-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius:30px ;
+}
+.blog-btn{
+    width:100%;
+    border: none;
+    outline: none;
+    padding:10px 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.v-img-flex{
+    margin:15px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between ;
+    margin-top: 20px;
+    
+}
+.blog-btndown{
+    width:100%;
+    border: none;
+    outline: none;
+    padding:10px 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
